@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* Navegación */
+nav {
+  background-color: #111;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Contenido principal */
+.container {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d63333;
+  padding-bottom: 5px;
+}
+
+/* Listas */
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Tabla de horarios */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #d63333;
+  color: white;
+}
+
+/* Pie de página */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 0.9em;
+}
+
+/* Responsive (opcional para móviles) */
+@media (max-width: 768px)
